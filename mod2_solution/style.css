@@ -1,0 +1,177 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+p {
+	width: 100px;
+	height: 150px;
+	border: 1px solid black;
+	margin: 10px;
+	color: white; 
+	padding: 50px;	
+	
+}
+#p1 {
+	background-color: green;
+	
+}
+#p2 {
+	background-color: green;
+	
+}
+#p3 {
+	background-color: green;
+		
+}
+
+section {
+	width: 100px;
+	height: 50px;
+	border: 1px solid black;
+	padding: 10px;
+}
+#section1 {
+	background-color: #deb888;
+	color: white;
+		
+}
+#section2 {
+	background-color: orange;
+	color: #a52a2a;
+		
+}
+#section3 {
+	background-color: #00ffff;
+	color: red;
+		
+}
+
+/********** Desktop ***********/
+@media (min-width: 992px) {
+	#p1 {
+		width: 25%;
+		height: 150px;
+		float: left;
+		 
+		 
+	}
+	#p2 {
+		width: 25%;
+		height: 150px;
+		float: left;
+		
+	}
+	#p3 {
+		width: 25%;
+		height: 150px;
+		float: left;
+		
+	}
+
+	#section1 {
+		position: absolute;
+		top: 60px;
+		left: 250px;
+
+	}
+
+	#section2 {
+		position: absolute;
+		top: 60px;
+		left: 610px;	
+
+	}
+
+	#section3 {
+		position: absolute;
+		top: 60px;
+		left: 969px;
+
+	}
+
+}
+
+
+/************* Tablet Device **************/
+@media (min-width: 768px) and (max-width: 991px) {
+	#p1 {
+		width: 40%;
+		height: 150px;
+		float: left;		
+	}
+	#p2 {
+		width: 40%;
+		height: 150px;
+		float: left;
+	}
+	#p3 {
+		width: 82%;
+		height: 150px;
+		float: left;
+		
+	}
+
+	#section1 {
+		position: absolute;
+		top: 60px;
+		left: 300px;	
+
+	}
+
+	#section2 {
+		position: absolute;
+		top: 60px;
+		left: 710px;
+
+	}
+	#section3 {
+		position: absolute;
+		top: 230px;
+		left: 710px;
+		
+
+	}
+}	
+
+/********** Mobile ***********/
+@media (max-width: 767px) {
+	#p1 {
+		width: 40%;
+		height: 200px;		
+	}
+	#p2 {
+		width: 40%;
+		height: 200px;
+	}
+	#p3 {
+		width: 40%;
+		height: 200px;
+	}
+	#section1 {
+		position: absolute;
+		top: 50px;
+		left: 210px;	
+
+	}
+	#section2 {
+		position: absolute;
+		top: 262px;
+		left: 210px;
+
+	}
+	#section3 {
+		position: absolute;
+		top: 472px;
+		left: 210px;
+
+	}
+
+}
