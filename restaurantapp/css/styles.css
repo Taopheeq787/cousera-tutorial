@@ -179,6 +179,14 @@ a.nav-link:hover {
 	font-style: italic;
 }
 
+@media (max-width: 500px) {
+	a div.category-tile img {
+		visibility: visible;
+		width: 150px;
+		height: 150px;
+	}
+}
+
 /*** SINGLE CATEGORY PAGE ***/
 .menu-item-tile {
 	margin-bottom: 25px;
